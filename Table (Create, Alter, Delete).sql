@@ -93,6 +93,13 @@ SELECT * FROM INFORMATION_SCHEMA.TABLES;
 GO
 
 
+---------------------------------------------------------------------------
+-----------------------Describe Table or To know metadata------------------
+---------------------------------------------------------------------------
+exec sp_columns primary_key_demo_3;
+GO
 
+EXEC sp_help primary_key_demo_3;
+GO
 
 
